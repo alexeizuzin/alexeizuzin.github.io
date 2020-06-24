@@ -23,11 +23,11 @@
     <title>Алексей Зюзин</title>
   </head>
   <body>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       function sendSms() {
-        window.open('sms:+79853660544&body=Хочу обсудить одну тему', '_self');
+        window.open('sms:+79853660544', '_self');
       }
-    </script>
+    </script> -->
     <style>
       body { background: #eee; color: black;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -43,9 +43,10 @@
 
     <h4 class="name-text">Алексей Зюзин</h4>
     <h4 class="phone-text">+7 985 366-05-44</h4>
+
     <a class="phone-link button" href="tel:+79853660544">Позвонить</a>
 
-    <span class="sms-button button" type="button" name="button" onclick="sendSms()">
+    <a href="sms://+79853660544?body=I%27m%20interested%20in%20your%20product." class="sms-button button">
       Запросить <br /> звонок
     </span>
   </body>
