@@ -1,5 +1,6 @@
 {
- "name": "App",
+ "name": "Aleksey Zyuzin",
+  "short_name": "Aleksey Z",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +38,8 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+],
+  "background_color": "#eeeeee",
+  "display": "fullscreen",
+  "orientation": "natural"
 }
